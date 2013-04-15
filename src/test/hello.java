@@ -1,9 +1,9 @@
 package test;
 import test.I_hello;
- import test.hello1;
+import test.hello1;
 
 
- interface I_hello{
+interface I_hello{
 	void HelloWorld();
 }
 class hello1 implements  I_hello{
