@@ -5,7 +5,6 @@ import com.anjuke.minzhao.hello1;
 interface Ihello {
 	void HelloWorld();
 }
-
 class hello1 implements Ihello {
 	public void HelloWorld() {
 		System.out.println("Hello World!");
