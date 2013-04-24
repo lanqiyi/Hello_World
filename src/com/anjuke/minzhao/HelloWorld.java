@@ -1,12 +1,12 @@
 package com.anjuke.minzhao;
-import com.anjuke.minzhao.I_hello;
+import com.anjuke.minzhao.Ihello;
 import com.anjuke.minzhao.hello1;
 
-interface I_hello {
+interface Ihello {
 	void HelloWorld();
 }
 
-class hello1 implements I_hello {
+class hello1 implements Ihello {
 	public void HelloWorld() {
 		System.out.println("Hello World!");
 	}
@@ -16,7 +16,7 @@ class hello1 implements I_hello {
 	}
 }
 
-public class hello {
+public class HelloWorld {
 	public static void main(String args[]) {
 		hello1 myfunction = new hello1();
 		myfunction.HelloWorld();
