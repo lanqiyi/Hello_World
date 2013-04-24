@@ -1,6 +1,6 @@
-package test;
-import test.I_hello;
-import test.hello1;
+package com.anjuke.minzhao;
+import com.anjuke.minzhao.I_hello;
+import com.anjuke.minzhao.hello1;
 
 interface I_hello {
 	void HelloWorld();
